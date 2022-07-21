@@ -1,0 +1,33 @@
+GUI in its most simplist of terms : {
+Loop: 
+Inputs – rotary encoder, buttons, sensors 
+Outputs – changes on the screen
+Call loop: 
+}
+
+
+Objectives – ability for end user to add modes that take in inputs how they want and create outputs 
+
+Constraints – 
+-	Number of inputs – 2 input devices, 2 sensors 
+-	Number of modes - ? 
+-	Size of animations 
+
+Categories – 
+-	Inputs 
+	o	User inputs
+		+	Rotary encoder 
+		+	Button 
+		+	Potentiometer
+	o	Sensor inputs 
+		+	Temperature 
+		+	Light 
+		+	Distance 
+		+	etc
+-	Output
+	o	Led board 
+		+	Modes 
+			•	User defined 1 
+			•	User defined 2 
+			•	Etc
+		+	User defined animation 

@@ -1,0 +1,1 @@
+This is a repo for 8x8 LED board on **hardware that harrison can describe**. 

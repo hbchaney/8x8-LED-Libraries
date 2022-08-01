@@ -11,6 +11,8 @@ RotaryEncoder::RotaryEncoder(int pin1, int pin2, int sw) : in_pin1{pin1}, in_pin
     press_start = 0; 
 } 
 
+RotaryEncoder::~RotaryEncoder() {} 
+
 int RotaryEncoder::check_increment() { 
     l = digitalRead(in_pin1);
     r = digitalRead(in_pin2);
@@ -50,9 +52,5 @@ unsigned long RotaryEncoder::check_button() {
 
 //the time for an input to trigger 
 //the pause after the toggle turns back off 
-Toggle::Toggle(unsigned long trig, unsigned long pause) : trigger_length(trig), pause_length(pause) {} 
 
-bool Toggle::state(unsigned long timer) { 
-
-}
 

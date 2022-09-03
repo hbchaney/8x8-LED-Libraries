@@ -1,6 +1,6 @@
 #include "Timer.hpp"
 
-static const uint8_t PROGMEM  small_0[] = 
+static const uint8_t small_0[] = 
   { 0b11100000,
     0b10100000, 
     0b10100000,
